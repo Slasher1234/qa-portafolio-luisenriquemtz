@@ -1,0 +1,17 @@
+{
+  "name": "cypresstest",
+  "version": "1.0.0",
+  "description": "test de practica",
+  "license": "ISC",
+  "author": "luis enrique",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "pruebas-egde": "cypress run --spec cypress/e2e/orangeHRM_homepage_spec.cy.js -- browser edge ",
+    "pruebas-chrome": "cypress run --spec cypress/e2e/orangeHRM_homepage_spec.cy.js -- browser chrome ",
+    "pruebas-firefox": "cypress run --spec cypress/e2e/orangeHRM_homepage_spec.cy.js -- browser firefox "
+  },
+  "devDependencies": {
+    "cypress": "^15.4.0"
+  }
+}
